@@ -38,6 +38,7 @@ export default class DatePicker extends PureComponent {
 
   openCalendar = () => {
     this.setState({ isOpen: true });
+    console.log('hi');
   }
 
   closeCalendar = () => {
